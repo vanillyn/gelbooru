@@ -1,0 +1,27 @@
+/* sandler by Eko Bimantara */
+@font-face {
+    font-family: "sandler";
+    src: url(../font/Sandler.otf);
+}
+.font-sandler { 
+    font-family: "sandler";
+}
+
+/* plasto by Eko Bimantara */
+@font-face {
+    font-family: "plasto";
+    src: url(../font/Plasto.otf);
+}
+.font-plasto {
+    font-family: "plasto";
+}
+
+/* Winter Sunday by Khursan */
+@font-face {
+    font-family: "wintersunday";
+    src: url(../font/Winter\ Sunday.ttf) format("truetype");
+}
+.font-winter {
+    font-family: "wintersunday";
+}
+

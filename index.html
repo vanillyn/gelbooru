@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- embed metadata -->
+        <meta name="description" content="vanillyn's site">
+        <meta name="title" content="vanillyn">
+        <meta name="author" content="vanillyn">
+        <meta property="og:title" content="vanillyn">
+        <meta property="og:description" content="vanillyn's site">
+        <meta name="theme-color" content="#f38ba8">
+        
+        <!-- favicon -->
+        <link rel="icon" href="./load.svg" type="image/svg+xml">
+    
+        <!-- scripts -->
+        <script type="module" src="src/script/colors.js"></script>
+        <script type="module" src="src/script/elements.js"></script>
+        <script type="module" src="src/script/randomize.js"></script>
+        <script type="module" src="src/script/posts.js"></script>
+        <script type="module" src="src/script/login.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="src/style/tw.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+        <link rel="stylesheet" href="src/style/fonts.css" />
+    
+        <!-- miscellaneous metadata -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
+    
+        <!-- title -->
+        <title>vanilla</title>
+    
+      </head>
+  <body class="bg-base text-text mocha flex flex-col min-h-screen" id="content">
+    <accent id="text" class="accented">
+      <header class="bg-mantle" id="header">
+        <div class="h-1 flex hidden">
+          <div class="w-1/12 bg-rosewater"></div>
+          <div class="w-1/12 bg-flamingo"></div>
+          <div class="w-1/12 bg-pink"></div>
+          <div class="w-1/12 bg-red"></div>
+          <div class="w-1/12 bg-maroon"></div>
+          <div class="w-1/12 bg-peach"></div>
+          <div class="w-1/12 bg-yellow"></div>
+          <div class="w-1/12 bg-green"></div>
+          <div class="w-1/12 bg-teal"></div>
+          <div class="w-1/12 bg-sky"></div>
+          <div class="w-1/12 bg-sapphire"></div>
+          <div class="w-1/12 bg-blue"></div>
+          <div class="w-1/12 bg-lavender"></div>
+          <div class="w-1/12 bg-mauve"></div>
+        </div>
+        <nav class="flex justify-between items-center mx-auto max-w-7xl md:px-8 hidden">
+          <div class="flex">
+            <h1 class="text-3xl max-md:text-xl rfs:p-6"
+              title="page made by vanillyn with: 
+              css & icons by tailwindcss 
+              optimization with vite
+              colors/themes by catppuccin 
+              Sandler font by Eko Bimantara 
+              Plasto font by Eko Bimantara 
+              Winter Sunday font by Khursan">
+              multiryzz
+            </h1>
+          </div>
+          <div class="flex gap-3">
+            <a href="https://siro.multiryzz.com" class="rfs:text-lg font-semibold leading-6">siro </a>
+            <a href="https://vani.multiryzz.com" class="rfs:text-lg font-semibold leading-6">vani </a>
+          </div>
+          <div class="flex justify-end">
+            <button type="button" id="themeSelector" class="rfs:p-2.5 px-1"
+              title="left click to change theme, right click to open catppuccin's website"
+              oncontextmenu="window.location.href = 'https://github.com/catppuccin/catppuccin';" >
+              <i class="fas fa-paintbrush"></i>
+            </button>
+            <button type="button" id="accentSelector" class="rfs:p-2.5 px-3"
+              title="left click to change accent color, right click to open catppuccin's website"
+              oncontextmenu="window.location.href = 'https://github.com/catppuccin/catppuccin';"> 
+            <i class="fas fa-rainbow"></i>
+            </button>
+            <button type="button" id="helpButton" class="rfs:p-2.5 px-1"
+              title="left click to get page help!">
+              <i class="fas fa-question"></i>
+            </button>
+          </div>
+        </nav>
+      </header>
+    </accent>
+    <main class="flex flex-wrap min-h-screen" id="main">
+      
+      
+      
+    </main>
+
+    <div id="helpPopup"></div>
+  </body>
+</html>
